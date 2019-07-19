@@ -1,0 +1,145 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Models/Plasm_Mechanism.dae" type="PackedScene" id=1]
+[ext_resource path="res://Materials/Metals/Plasm_Mechanism_Mat.material" type="Material" id=2]
+[ext_resource path="res://Animation/Light_000l.tres" type="Animation" id=3]
+[ext_resource path="res://AssetLibrary/Plasm_Pink.tscn" type="PackedScene" id=4]
+[ext_resource path="res://AssetLibrary/Plasm_Blue.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Materials/Light_Materials/Light_Mat_000.tres" type="Material" id=6]
+[ext_resource path="res://Animation/Rotation_N_Scale_000.tres" type="Animation" id=7]
+[ext_resource path="res://AssetLibrary/Plasm_Mechanism_000.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Environments/Environment_Day_000.tres" type="Environment" id=9]
+
+[sub_resource type="CylinderShape" id=1]
+
+[sub_resource type="SphereMesh" id=2]
+material = ExtResource( 6 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "Automatic_Spher_Animation"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:rotation_degrees")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 1 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 360, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:scale")
+tracks/1/interp = 2
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0.3, 0.3, 0.3 ), Vector3( 0.4, 0.4, 0.4 ), Vector3( 0.3, 0.3, 0.3 ) ]
+}
+
+[node name="Scene Root" index="0" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00731611, 0.00871956, 8.28505e-005 )
+
+[node name="Plazm_Mechanism_000" parent="." index="0"]
+transform = Transform( 0.402442, 0, 0, 0, 0.0974001, 0, 0, 0, 0.402442, 0, -0.015, 0 )
+material_override = ExtResource( 2 )
+skeleton = NodePath("")
+
+[node name="AnimationPlayer" parent="." index="1"]
+autoplay = "Light_Animation"
+anims/Light_Animation = ExtResource( 3 )
+
+[node name="Plasm_Pink" parent="." index="2" instance=ExtResource( 4 )]
+transform = Transform( 0.4, 0, 0, 0, 0.338795, 0.0336494, 0, -0.028602, 0.398582, 0.022, -0.144, 0.05 )
+
+[node name="Plasm_Blue" parent="." index="3" instance=ExtResource( 5 )]
+transform = Transform( -1.74846e-008, 0, 0.4, 0, 0.4, 0, -0.4, 0, -1.74846e-008, 0, 0.765, 0 )
+
+[node name="Plasm_Blue2" parent="." index="4" instance=ExtResource( 5 )]
+transform = Transform( -1.74846e-008, 0, -0.4, 0, 0.4, 0, 0.4, 0, -1.74846e-008, -0.000270247, 1.58592, 0.00326991 )
+
+[node name="OmniLight" type="OmniLight" parent="." index="5"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.247, 0 )
+light_color = Color( 1, 0.662745, 0.498039, 1 )
+light_energy = 7.03
+light_indirect_energy = 16.0
+light_specular = 1.0
+shadow_enabled = true
+shadow_color = Color( 0.14902, 0.133333, 0.133333, 1 )
+shadow_bias = 6.59
+shadow_contact = 0.1
+omni_range = 0.636289
+
+[node name="OmniLight2" type="OmniLight" parent="." index="6"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00429613, 1.12855, 0 )
+visible = false
+light_color = Color( 1, 0.517647, 0.631373, 1 )
+light_energy = 4.0
+light_indirect_energy = 5.0
+light_specular = 0.4
+omni_range = 0.502005
+
+[node name="OmniLight3" type="OmniLight" parent="." index="7"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.39193, 3.05541, 0.62818 )
+light_color = Color( 0.545098, 1, 0.945098, 1 )
+light_energy = 10.7
+light_indirect_energy = 0.82
+light_specular = 0.4
+light_bake_mode = 0
+shadow_enabled = true
+shadow_bias = 1.5
+shadow_contact = 0.39
+omni_range = 2.71153
+
+[node name="OmniLight4" type="OmniLight" parent="." index="8"]
+transform = Transform( 1, -7.77979e-010, -5.10433e-011, 7.77979e-010, 1, -2.34505e-011, 5.10433e-011, 2.34505e-011, 1, 0, 1.468, 0 )
+light_color = Color( 0.85098, 0.737255, 1, 1 )
+light_energy = 0.0
+light_indirect_energy = 3.26
+shadow_enabled = true
+shadow_color = Color( 0.164706, 0.152941, 0.2, 1 )
+shadow_bias = 0.34
+shadow_contact = 0.1
+omni_range = 1.78731
+
+[node name="StaticBody" type="StaticBody" parent="." index="9"]
+editor/display_folded = true
+
+[node name="CollisionShape" type="CollisionShape" parent="StaticBody" index="0"]
+transform = Transform( 1.9137, 0, 0, 0, 1.48595, 0, 0, 0, 1.77339, 0, 1.38543, -0.449 )
+shape = SubResource( 1 )
+disabled = true
+
+[node name="Automatic_Spher" type="CSGMesh" parent="." index="10"]
+editor/display_folded = true
+transform = Transform( 0.0245948, 0, -0.364417, 0, 0.365246, 0, 0.364417, 0, 0.0245948, 0, 2.33, 0.0261897 )
+mesh = SubResource( 2 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Automatic_Spher" index="0"]
+autoplay = "Automatic_Spher_Animation"
+anims/Automatic_Spher_Animation = SubResource( 3 )
+
+[node name="Automatic_Spher2" type="CSGMesh" parent="." index="11"]
+editor/display_folded = true
+transform = Transform( 0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 0, 1.46, 0.095 )
+mesh = SubResource( 2 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Automatic_Spher2" index="0"]
+autoplay = "Automatic_Spher_Animation"
+anims/Automatic_Spher_Animation = ExtResource( 7 )
+
+[node name="Plasm_Mechanism_000" parent="." index="12" instance=ExtResource( 8 )]
+
+[node name="Camera" type="Camera" parent="." index="13"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.34, 7.48118 )
+keep_aspect = 0
+environment = ExtResource( 9 )
+current = true
+fov = 45.6
+near = 0.02
