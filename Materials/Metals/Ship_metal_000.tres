@@ -1,0 +1,31 @@
+[gd_resource type="SpatialMaterial" load_steps=6 format=2]
+
+[ext_resource path="res://Textures/ShipBody/FlyingShipBody_Diff.jpg" type="Texture" id=1]
+[ext_resource path="res://Textures/ShipBody/FlyingShipBody_height.jpg" type="Texture" id=2]
+[ext_resource path="res://Textures/ShipBody/FlyingShipBody_metallic.jpg" type="Texture" id=3]
+[ext_resource path="res://Textures/ShipBody/FlyingShipBody_normal.jpg" type="Texture" id=4]
+[ext_resource path="res://Textures/ShipBodyRust/FlayingShipBody_000_smoothness.jpg" type="Texture" id=5]
+
+[resource]
+params_diffuse_mode = 1
+params_specular_mode = 2
+albedo_color = Color( 0.419608, 0.368627, 0.368627, 1 )
+albedo_texture = ExtResource( 1 )
+metallic = 0.84
+metallic_specular = 0.1
+metallic_texture = ExtResource( 3 )
+roughness_texture = ExtResource( 5 )
+normal_enabled = true
+normal_scale = 0.5
+normal_texture = ExtResource( 4 )
+depth_enabled = true
+depth_scale = 0.0
+depth_deep_parallax = true
+depth_min_layers = 8
+depth_max_layers = 32
+depth_flip_tangent = false
+depth_flip_binormal = false
+depth_texture = ExtResource( 2 )
+refraction_enabled = true
+refraction_scale = 0.05
+refraction_texture_channel = 0

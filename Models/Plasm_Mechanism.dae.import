@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Plasm_Mechanism.dae-5102de81553d3f591e05976bfc8ef75f.scn"
+path="res://.import/Plasm_mechanism.dae-066c8dfcb0276aa4f9a1f58e78e8982b.scn"
 
 [deps]
 
-source_file="res://Models/Plasm_Mechanism.dae"
-dest_files=[ "res://.import/Plasm_Mechanism.dae-5102de81553d3f591e05976bfc8ef75f.scn" ]
+source_file="res://Models/Plasm_mechanism.dae"
+dest_files=[ "res://.import/Plasm_mechanism.dae-066c8dfcb0276aa4f9a1f58e78e8982b.scn" ]
 
 [params]
 

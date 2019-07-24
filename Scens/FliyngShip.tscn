@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Environments/Environment_Day_000.tres" type="Environment" id=1]
+[ext_resource path="res://Environments/Environment_day_000.tres" type="Environment" id=1]
 
 [node name="Root" type="Spatial"]
 
@@ -8,7 +8,7 @@
 environment = ExtResource( 1 )
 
 [node name="ClippedCamera" type="ClippedCamera" parent="."]
-transform = Transform( -0.102094, 0, -0.994775, 0, 1, 0, 0.994775, 0, -0.102094, 0, 0, 0 )
+transform = Transform( -0.102094, 0, -0.994775, 0, 1, 0, 0.994775, 0, -0.102094, -3.1362, 0.0403816, 0.0307884 )
 keep_aspect = 0
 environment = ExtResource( 1 )
 

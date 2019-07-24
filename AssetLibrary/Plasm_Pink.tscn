@@ -1,6 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Materials/Particles/Particles_Pink_Matn.tres" type="Material" id=1]
+[ext_resource path="res://Materials/Particles/Particles_pink_Matn.tres" type="Material" id=1]
+
 
 [sub_resource type="CapsuleMesh" id=1]
 material = ExtResource( 1 )

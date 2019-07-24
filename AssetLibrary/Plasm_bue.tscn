@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Materials/Particles/Particles_blue_mat.tres" type="Material" id=1]
+
+
+[sub_resource type="CapsuleMesh" id=1]
+
+[node name="Plasm_Blue" type="Spatial"]
+
+[node name="CPUParticles" type="CPUParticles" parent="."]
+transform = Transform( 1, 0, 0, 0, 0.4, 0, 0, 0, 1, 0, 0.68, 0 )
+material_override = ExtResource( 1 )
+cast_shadow = 0
+use_in_baked_light = true
+speed_scale = 5.0
+mesh = SubResource( 1 )
+flag_align_y = true
+gravity = Vector3( 0, 0, 0 )
+initial_velocity = 0.1
