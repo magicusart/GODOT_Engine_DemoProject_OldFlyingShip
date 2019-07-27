@@ -2,7 +2,6 @@
 
 [ext_resource path="res://Materials/Particles/Particles_pink_Matn.tres" type="Material" id=1]
 
-
 [sub_resource type="CapsuleMesh" id=1]
 material = ExtResource( 1 )
 radial_segments = 27
@@ -12,10 +11,9 @@ radial_segments = 27
 [node name="Particles" type="CPUParticles" parent="."]
 transform = Transform( -0.5, 8.74228e-008, 0, -4.37114e-008, -1, 0, 0, 0, 0.5, 0, 1.532, 0 )
 material_override = ExtResource( 1 )
-amount = 12
-preprocess = 21.2
 mesh = SubResource( 1 )
-emission_shape = 4
-emission_normals = PoolVector3Array(  )
+emission_shape = 3
+emission_points = PoolVector3Array( 0, 0, 0 )
+emission_colors = PoolColorArray( 0, 0, 0, 1 )
 flag_align_y = true
 angular_velocity = 9.27552e-039

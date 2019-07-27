@@ -2,21 +2,19 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/FlayingShipBody_000_normal.jpg-1ef3febcc9b1e0b62b643d563a1cfe0f.s3tc.stex"
-path.etc="res://.import/FlayingShipBody_000_normal.jpg-1ef3febcc9b1e0b62b643d563a1cfe0f.etc.stex"
+path="res://.import/FlayingShipBody_000_normal.jpg-1ef3febcc9b1e0b62b643d563a1cfe0f.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc" ],
-"vram_texture": true
+"vram_texture": false
 }
 
 [deps]
 
 source_file="res://Textures/ShipBodyRust/FlayingShipBody_000_normal.jpg"
-dest_files=[ "res://.import/FlayingShipBody_000_normal.jpg-1ef3febcc9b1e0b62b643d563a1cfe0f.s3tc.stex", "res://.import/FlayingShipBody_000_normal.jpg-1ef3febcc9b1e0b62b643d563a1cfe0f.etc.stex" ]
+dest_files=[ "res://.import/FlayingShipBody_000_normal.jpg-1ef3febcc9b1e0b62b643d563a1cfe0f.stex" ]
 
 [params]
 
-compress/mode=2
+compress/mode=3
 compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/bptc_ldr=0

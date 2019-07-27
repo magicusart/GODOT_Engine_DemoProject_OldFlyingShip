@@ -67,11 +67,10 @@ transform = Transform( -1.74846e-008, 0, -0.4, 0, 0.4, 0, 0.4, 0, -1.74846e-008,
 
 [node name="OmniLight" type="OmniLight" parent="." index="5"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0194445, 0.161756, -0.0164076 )
-light_color = Color( 1, 0.866667, 0.611765, 1 )
-light_energy = 8.38
-light_indirect_energy = 16.0
+light_color = Color( 1, 0.933333, 0.803922, 1 )
+light_energy = 5.16
+light_indirect_energy = 4.0
 light_specular = 1.0
-light_bake_mode = 0
 shadow_enabled = true
 shadow_color = Color( 0.14902, 0.133333, 0.133333, 1 )
 shadow_bias = 6.59
@@ -81,8 +80,9 @@ omni_range = 0.636289
 [node name="OmniLight1" type="OmniLight" parent="." index="6"]
 transform = Transform( 1, -7.77979e-010, -5.10433e-011, 7.77979e-010, 1, -2.34505e-011, 5.10433e-011, 2.34505e-011, 1, 0, 1.468, 0 )
 light_color = Color( 0.85098, 0.737255, 1, 1 )
-light_energy = 0.0
-light_indirect_energy = 3.26
+light_energy = 13.27
+light_indirect_energy = 13.0
+light_specular = 0.59
 shadow_enabled = true
 shadow_color = Color( 0.164706, 0.152941, 0.2, 1 )
 shadow_bias = 0.34
