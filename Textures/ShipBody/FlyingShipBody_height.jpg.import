@@ -3,16 +3,17 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/FlyingShipBody_height.jpg-547498960fcd59c482c17f6a4c0bac10.s3tc.stex"
+path.etc2="res://.import/FlyingShipBody_height.jpg-547498960fcd59c482c17f6a4c0bac10.etc2.stex"
 path.etc="res://.import/FlyingShipBody_height.jpg-547498960fcd59c482c17f6a4c0bac10.etc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc" ],
+"imported_formats": [ "s3tc", "etc2", "etc" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Textures/ShipBody/FlyingShipBody_height.jpg"
-dest_files=[ "res://.import/FlyingShipBody_height.jpg-547498960fcd59c482c17f6a4c0bac10.s3tc.stex", "res://.import/FlyingShipBody_height.jpg-547498960fcd59c482c17f6a4c0bac10.etc.stex" ]
+dest_files=[ "res://.import/FlyingShipBody_height.jpg-547498960fcd59c482c17f6a4c0bac10.s3tc.stex", "res://.import/FlyingShipBody_height.jpg-547498960fcd59c482c17f6a4c0bac10.etc2.stex", "res://.import/FlyingShipBody_height.jpg-547498960fcd59c482c17f6a4c0bac10.etc.stex" ]
 
 [params]
 

@@ -3,16 +3,17 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/Plazm_Mechanism_smoothness.jpg-a5f6af3470576691d8c889c1e8b64fa5.s3tc.stex"
+path.etc2="res://.import/Plazm_Mechanism_smoothness.jpg-a5f6af3470576691d8c889c1e8b64fa5.etc2.stex"
 path.etc="res://.import/Plazm_Mechanism_smoothness.jpg-a5f6af3470576691d8c889c1e8b64fa5.etc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc" ],
+"imported_formats": [ "s3tc", "etc2", "etc" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Textures/Plasm_Mechanism_Metal_Textures/Plazm_Mechanism_smoothness.jpg"
-dest_files=[ "res://.import/Plazm_Mechanism_smoothness.jpg-a5f6af3470576691d8c889c1e8b64fa5.s3tc.stex", "res://.import/Plazm_Mechanism_smoothness.jpg-a5f6af3470576691d8c889c1e8b64fa5.etc.stex" ]
+dest_files=[ "res://.import/Plazm_Mechanism_smoothness.jpg-a5f6af3470576691d8c889c1e8b64fa5.s3tc.stex", "res://.import/Plazm_Mechanism_smoothness.jpg-a5f6af3470576691d8c889c1e8b64fa5.etc2.stex", "res://.import/Plazm_Mechanism_smoothness.jpg-a5f6af3470576691d8c889c1e8b64fa5.etc.stex" ]
 
 [params]
 

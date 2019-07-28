@@ -3,16 +3,17 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/FlayingShipBody_000_diffuseOriginal.jpg-b681665cfb138555a6432fc1be70f888.s3tc.stex"
+path.etc2="res://.import/FlayingShipBody_000_diffuseOriginal.jpg-b681665cfb138555a6432fc1be70f888.etc2.stex"
 path.etc="res://.import/FlayingShipBody_000_diffuseOriginal.jpg-b681665cfb138555a6432fc1be70f888.etc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc" ],
+"imported_formats": [ "s3tc", "etc2", "etc" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Textures/ShipBodyRust/FlayingShipBody_000_diffuseOriginal.jpg"
-dest_files=[ "res://.import/FlayingShipBody_000_diffuseOriginal.jpg-b681665cfb138555a6432fc1be70f888.s3tc.stex", "res://.import/FlayingShipBody_000_diffuseOriginal.jpg-b681665cfb138555a6432fc1be70f888.etc.stex" ]
+dest_files=[ "res://.import/FlayingShipBody_000_diffuseOriginal.jpg-b681665cfb138555a6432fc1be70f888.s3tc.stex", "res://.import/FlayingShipBody_000_diffuseOriginal.jpg-b681665cfb138555a6432fc1be70f888.etc2.stex", "res://.import/FlayingShipBody_000_diffuseOriginal.jpg-b681665cfb138555a6432fc1be70f888.etc.stex" ]
 
 [params]
 

@@ -23,7 +23,6 @@ config/icon="res://Icons/icon.png"
 
 window/size/width=1200
 window/size/height=650
-window/size/always_on_top=true
 
 [importer_defaults]
 
@@ -1084,9 +1083,9 @@ scene={
 "animation/optimizer/remove_unused_tracks": true,
 "animation/storage": false,
 "external_files/store_in_subdir": false,
-"materials/keep_on_reimport": true,
-"materials/location": 1,
-"materials/storage": 1,
+"materials/keep_on_reimport": false,
+"materials/location": 0,
+"materials/storage": 0,
 "meshes/compress": true,
 "meshes/ensure_tangents": true,
 "meshes/light_baking": 0,
@@ -1101,10 +1100,11 @@ scene={
 
 [memory]
 
-limits/message_queue/max_size_kb=1300
+limits/multithreaded_server/rid_pool_prealloc=100
+limits/message_queue/max_size_kb=2000
 
 [rendering]
 
+quality/2d/gles2_use_nvidia_rect_flicker_workaround=true
 vram_compression/import_etc=true
-vram_compression/import_etc2=false
 environment/default_environment="res://Environments/Environment_day_000.tres"

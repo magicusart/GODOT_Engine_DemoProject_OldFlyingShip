@@ -3,16 +3,17 @@
 importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/ElectroNoise.png-8266a5e34ab8837ba9d2b90a404763f1.s3tc.stex"
+path.etc2="res://.import/ElectroNoise.png-8266a5e34ab8837ba9d2b90a404763f1.etc2.stex"
 path.etc="res://.import/ElectroNoise.png-8266a5e34ab8837ba9d2b90a404763f1.etc.stex"
 metadata={
-"imported_formats": [ "s3tc", "etc" ],
+"imported_formats": [ "s3tc", "etc2", "etc" ],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://Textures/AlphaChannelTextures_For_Particles/ElectroNoise.png"
-dest_files=[ "res://.import/ElectroNoise.png-8266a5e34ab8837ba9d2b90a404763f1.s3tc.stex", "res://.import/ElectroNoise.png-8266a5e34ab8837ba9d2b90a404763f1.etc.stex" ]
+dest_files=[ "res://.import/ElectroNoise.png-8266a5e34ab8837ba9d2b90a404763f1.s3tc.stex", "res://.import/ElectroNoise.png-8266a5e34ab8837ba9d2b90a404763f1.etc2.stex", "res://.import/ElectroNoise.png-8266a5e34ab8837ba9d2b90a404763f1.etc.stex" ]
 
 [params]
 
