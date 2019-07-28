@@ -3,7 +3,7 @@ Materials, textures, lights and other things for GODOT.
 ## Introduction ##
 Project only started.
 
-![
+![intro
 ](Images/intro_ooo.jpg)
 ## What will be included ##
 + TEXTURES
@@ -19,7 +19,7 @@ Project only started.
 + Textures size no more than 1024px. I hope this made the project easier and helped launch it on a different hardware.
 + You can only use textures as part of a product. And never separately. This condition was established by the manufacturer (s) of the original photo materials from which the textures are made.
 # How to use #
-Just copy the folders you need into your project. For example, the materials folder and the textures folder. Or prefab and all its components. 
+Just copy the folders you need into your project. For example, the materials folder and the textures folder. Or prefab and all its components.
 ## License ##
 All components from the content creator are MIT licensed.
 ### Who ###
