@@ -34,7 +34,7 @@ All components from the content creator are MIT licensed.
 
 Created by Magicus Art Studio. Sergey Mikhaylov.
 
- [Magicus Art Studio Site](http://magicus-art.com/)
+ [Magicus Art Studio Site](https://magicus-art.com/)
 ## Credits and thanks ##
 + The project used the basic script from the package
  [Maujoe / godot-camera-control Script](https://github.com/Maujoe/godot-camera-control) and basic script from package
