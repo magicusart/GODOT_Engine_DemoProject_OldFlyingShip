@@ -1,9 +1,18 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Materials/Particles/Particles_blue_mat.tres" type="Material" id=1]
 
-
 [sub_resource type="CapsuleMesh" id=1]
+
+[sub_resource type="Curve" id=3]
+min_value = -360.0
+max_value = 360.0
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.462194, -82.368 ), -2019.71, 0.0, 0, 0 ]
+
+[sub_resource type="Curve" id=2]
+min_value = -360.0
+max_value = 360.0
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.602076, 120.384 ), 5446.76, 0.0, 0, 0 ]
 
 [node name="Plasm_Blue" type="Spatial"]
 
@@ -17,3 +26,6 @@ mesh = SubResource( 1 )
 flag_align_y = true
 gravity = Vector3( 0, 0, 0 )
 initial_velocity = 0.1
+angular_velocity_curve = SubResource( 3 )
+angle = 300.4
+angle_curve = SubResource( 2 )

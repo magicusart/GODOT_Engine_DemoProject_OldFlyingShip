@@ -1,8 +1,11 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Environments/Environment_day_000.tres" type="Environment" id=1]
 [ext_resource path="res://Prefabs/ShipBody.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Prefabs/Deck.tscn" type="PackedScene" id=3]
+[ext_resource path="res://AssetLibrary/ShipBody_000.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Prefabs/DeckDown.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Prefabs/Player.tscn" type="PackedScene" id=6]
 
 [node name="Root" type="Spatial"]
 
@@ -13,13 +16,19 @@ environment = ExtResource( 1 )
 transform = Transform( -0.0907717, -0.551093, 0.829492, 0, 0.832931, 0.553377, -0.995872, 0.050231, -0.0756065, 18.9636, 19.9398, -4.57542 )
 light_color = Color( 1, 0.827451, 0.607843, 1 )
 light_energy = 16.0
-light_indirect_energy = 0.0
 light_bake_mode = 0
 shadow_enabled = true
-shadow_color = Color( 0.298039, 0.305882, 0.321569, 1 )
-shadow_contact = 11.35
+shadow_color = Color( 0.00392157, 0.00392157, 0.00392157, 1 )
+shadow_bias = 0.7
 
 [node name="Ship" parent="." instance=ExtResource( 2 )]
 
 [node name="Deck" parent="Ship" instance=ExtResource( 3 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0213351, -0.0376425, 0.00956941 )
+
+[node name="Ship_000" parent="Ship" instance=ExtResource( 4 )]
+
+[node name="Deck_down" parent="Ship" instance=ExtResource( 5 )]
+
+[node name="FPSController" parent="." instance=ExtResource( 6 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.25024, 0 )

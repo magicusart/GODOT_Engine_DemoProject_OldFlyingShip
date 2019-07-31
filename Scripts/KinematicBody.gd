@@ -1,10 +1,7 @@
 extends KinematicBody
 
-export var Sensitivity_X = 0.5
-export var Sensitivity_Y = 0.5
-export var Invert_Y_Axis = false
+export var Sensitivity_X = 0.1
 export var Exit_On_Escape = true
-export var Maximum_Y_Look = 45
 export var Accelaration = 1
 export var Maximum_Walk_Speed = 3
 export var Jump_Speed = 2

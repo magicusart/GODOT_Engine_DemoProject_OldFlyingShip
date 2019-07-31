@@ -1,14 +1,18 @@
 # Old Flying Ship - GODOT Engine 3D Demo Project #
-Materials, textures, lights and other things for GODOT.
+
 ## Introduction ##
-Project only started.
+Today [GODOT](https://godotengine.org/) is the most convenient and logical engine in the world.
+
+And the most unknown among game developers.
+
+This situation needs to be corrected.
 
 ![intro
 ](Images/intro_ooo.jpg)
 ## What will be included ##
 + TEXTURES
-* MATERIALS
-* ANIMATION TRECS
++ MATERIALS
++ ANIMATION TRECS
 + PARTICLES SISTEMS
 + FPS CONTROLLER
 + ENVIROMENT MAP
@@ -20,6 +24,10 @@ Project only started.
 + You can only use textures as part of a product. And never separately. This condition was established by the manufacturer (s) of the original photo materials from which the textures are made.
 # How to use #
 Just copy the folders you need into your project. For example, the materials folder and the textures folder. Or prefab and all its components.
+
+General scheme of ways.
+
+![](Images/ways.jpg)
 ## License ##
 All components from the content creator are MIT licensed.
 ### Who ###

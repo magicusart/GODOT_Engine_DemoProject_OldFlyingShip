@@ -1,0 +1,52 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://Materials/Particles/Plasm_go_matl.tres" type="Material" id=1]
+
+[sub_resource type="Curve" id=1]
+min_value = -200.0
+max_value = 200.0
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.535937, -10.56 ), -195.896, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=2]
+curve = SubResource( 1 )
+
+[sub_resource type="Curve" id=3]
+min_value = 0.99
+max_value = 370.78
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.636562, 0.6848 ), -4.38188, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=4]
+curve = SubResource( 3 )
+
+[sub_resource type="Curve" id=5]
+min_value = 0.99
+max_value = 882.78
+_data = [ Vector2( 0, 1 ), 0.0, 0.0, 0, 0, Vector2( 0.647344, 0.236 ), -1.49642, 0.0, 0, 0 ]
+
+[sub_resource type="CurveTexture" id=6]
+curve = SubResource( 5 )
+
+[sub_resource type="ParticlesMaterial" id=7]
+trail_divisor = 2
+trail_size_modifier = SubResource( 6 )
+gravity = Vector3( 0, -8.21, 0 )
+linear_accel_curve = SubResource( 2 )
+damping_random = 0.63
+scale_random = 0.34
+scale_curve = SubResource( 4 )
+
+[sub_resource type="SphereMesh" id=8]
+radius = 2.316
+height = 2.658
+is_hemisphere = true
+
+[node name="Plasm_go" type="Spatial"]
+
+[node name="Particles" type="Particles" parent="."]
+material_override = ExtResource( 1 )
+cast_shadow = 0
+extra_cull_margin = 8085.61
+amount = 11
+preprocess = 8.6
+process_material = SubResource( 7 )
+draw_pass_1 = SubResource( 8 )

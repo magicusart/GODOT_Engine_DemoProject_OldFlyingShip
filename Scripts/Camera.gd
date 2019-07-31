@@ -25,10 +25,7 @@ export (float, 0.0, 1.0) var acceleration = 1.0
 export (float, 0.0, 0.0, 1.0) var deceleration = 0.1
 export var max_speed = Vector3(1.0, 1.0, 1.0)
 export var local = true
-export var forward_action = "ui_up"
 export var backward_action = "ui_down"
-export var left_action = "ui_left"
-export var right_action = "ui_right"
 export var up_action = "ui_page_up"
 export var down_action = "ui_page_down"
 
@@ -48,7 +45,7 @@ var _speed = Vector3(0.0, 0.0, 0.0)
 var _gui
 
 func _ready():
-	_check_actions([forward_action,  up_action, down_action])
+	_check_actions([up_action, down_action])
 
 	if privot:
 		privot = get_node(privot)

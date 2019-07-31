@@ -15,6 +15,7 @@ material_override = ExtResource( 2 )
 [node name="StaticBody" type="StaticBody" parent="Deck" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Deck/StaticBody" index="0"]
+visible = false
 shape = SubResource( 1 )
 
 [node name="Scene Root" parent="." index="2" instance=ExtResource( 3 )]

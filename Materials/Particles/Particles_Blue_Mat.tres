@@ -3,6 +3,7 @@
 [ext_resource path="res://Textures/AlphaChannelTextures_For_Particles/Plasm_1.png" type="Texture" id=1]
 
 [resource]
+render_priority = 1
 flags_transparent = true
 params_blend_mode = 1
 params_cull_mode = 2

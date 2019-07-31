@@ -7,6 +7,7 @@ radiance_size = 5
 panorama = ExtResource( 1 )
 
 [resource]
+resource_local_to_scene = true
 background_mode = 2
 background_sky = SubResource( 1 )
 fog_enabled = true
@@ -20,7 +21,7 @@ dof_blur_far_enabled = true
 dof_blur_far_amount = 0.03
 dof_blur_far_quality = 2
 dof_blur_near_enabled = true
-dof_blur_near_quality = 2
+dof_blur_near_distance = 1.5
 glow_enabled = true
 glow_strength = 0.82
 glow_bloom = 0.38

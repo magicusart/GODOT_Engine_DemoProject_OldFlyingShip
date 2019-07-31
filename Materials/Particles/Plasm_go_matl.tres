@@ -1,0 +1,14 @@
+[gd_resource type="SpatialMaterial" load_steps=2 format=2]
+
+[ext_resource path="res://Textures/AlphaChannelTextures_For_Particles/Plasm_2.png" type="Texture" id=1]
+
+[resource]
+flags_transparent = true
+params_blend_mode = 1
+albedo_color = Color( 0.768627, 0.533333, 1, 1 )
+albedo_texture = ExtResource( 1 )
+metallic = 0.82
+metallic_specular = 0.93
+rim_enabled = true
+rim = 1.0
+rim_tint = 0.28

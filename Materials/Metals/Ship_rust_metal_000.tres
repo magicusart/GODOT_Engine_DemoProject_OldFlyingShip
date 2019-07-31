@@ -9,11 +9,12 @@
 [ext_resource path="res://Textures/ShipBodyRust/FlayingShipBody_000_smoothness.jpg" type="Texture" id=7]
 
 [resource]
-params_depth_draw_mode = 1
-albedo_color = Color( 0.286275, 0.231373, 0.192157, 1 )
+params_diffuse_mode = 3
+params_specular_mode = 2
+albedo_color = Color( 0.313726, 0.282353, 0.27451, 1 )
 albedo_texture = ExtResource( 1 )
-metallic = 1.0
-metallic_specular = 0.43
+metallic = 0.76
+metallic_specular = 0.0
 metallic_texture = ExtResource( 5 )
 roughness_texture = ExtResource( 7 )
 roughness_texture_channel = 3
@@ -21,19 +22,17 @@ normal_enabled = true
 normal_scale = 0.0
 normal_texture = ExtResource( 6 )
 clearcoat_enabled = true
-clearcoat = 0.5
+clearcoat = 1.0
 clearcoat_gloss = 0.0
 clearcoat_texture = ExtResource( 3 )
 ao_enabled = true
-ao_light_affect = 0.66
+ao_light_affect = 0.92
 ao_texture = ExtResource( 2 )
 ao_on_uv2 = false
-ao_texture_channel = 0
+ao_texture_channel = 4
 depth_enabled = true
 depth_scale = 0.0
-depth_deep_parallax = true
-depth_min_layers = 32
-depth_max_layers = 32
+depth_deep_parallax = false
 depth_flip_tangent = false
 depth_flip_binormal = true
 depth_texture = ExtResource( 4 )
