@@ -5,10 +5,10 @@ Today [GODOT](https://godotengine.org/) is the most convenient and logical engin
 
 And the most unknown among game developers.
 
-This situation needs to be corrected.
+We are trying to fix it.
 
-![intro
-](Images/intro_ooo.jpg)
+![banner
+](Images/FaceGEDP_001.jpg)
 ## What will be included ##
 + TEXTURES
 + MATERIALS
@@ -35,6 +35,9 @@ All components from the content creator are MIT licensed.
 Created by Magicus Art Studio. Sergey Mikhaylov.
 
  [Magicus Art Studio Site](https://magicus-art.com/)
+## What is now ##
+![](Images/Prro_go_000.jpg)
+08.01.2019
 ## Credits and thanks ##
 + The project used the basic script from the package
  [Maujoe / godot-camera-control Script](https://github.com/Maujoe/godot-camera-control) and basic script from package
