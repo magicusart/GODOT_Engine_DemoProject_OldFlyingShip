@@ -7,7 +7,6 @@
 [ext_resource path="res://Textures/ShipBody_000/FlyingShipBody_001_normal.jpg" type="Texture" id=5]
 
 [resource]
-params_depth_draw_mode = 1
 albedo_color = Color( 0.117647, 0.105882, 0.137255, 1 )
 albedo_texture = ExtResource( 1 )
 metallic = 1.0
