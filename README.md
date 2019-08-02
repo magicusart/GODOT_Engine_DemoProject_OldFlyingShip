@@ -35,7 +35,8 @@ All components from the content creator are MIT licensed.
 Created by Magicus Art Studio. Sergey Mikhaylov.
 
  [Magicus Art Studio Site](https://magicus-art.com/)
-## What is now ##
+## Progress ##
+
 ![](Images/Prro_go_000.jpg)
 08.01.2019
 ## Credits and thanks ##

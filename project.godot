@@ -21,7 +21,7 @@ config/icon="res://Icons/icon.png"
 
 [display]
 
-window/size/width=1200
+window/size/width=1156
 window/size/height=650
 
 [importer_defaults]
