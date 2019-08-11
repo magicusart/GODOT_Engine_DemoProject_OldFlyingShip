@@ -5,7 +5,9 @@ Today [GODOT](https://godotengine.org/) is the most convenient and logical engin
 
 And the most unknown among game developers.
 
-We are trying to fix it.
+Demonstration of the graphic capabilities of the engine. Textures and materials for projects.
+
+Used GODOT 3.1.1
 
 ![banner
 ](Images/FaceGEDP_001.jpg)
@@ -37,6 +39,9 @@ Created by Magicus Art Studio. Sergey Mikhaylov.
  [Magicus Art Studio Site](https://magicus-art.com/)
 ## Progress ##
 
+![](Images/Prro_go_001.jpg)
+08.10.2019
+
 ![](Images/Prro_go_000.jpg)
 08.01.2019
 ## Credits and thanks ##
@@ -47,4 +52,4 @@ MIT License. The text of the license  [can be found here](https://github.com/god
 + Textures created with [Materialize](https://github.com/BoundingBoxSoftware/Materialize)
 + We like [Blender](https://www.blender.org/)
 ### Future ###
-Magicus Art Studio will use the engine in projects.
+Magicus Art Studio plans to create a project on this engine.

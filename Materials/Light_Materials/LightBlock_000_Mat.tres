@@ -1,0 +1,9 @@
+[gd_resource type="SpatialMaterial" format=2]
+
+[resource]
+params_diffuse_mode = 1
+albedo_color = Color( 0.776471, 0.333333, 0.117647, 1 )
+roughness = 0.89
+rim_enabled = true
+rim = 1.0
+rim_tint = 1.0

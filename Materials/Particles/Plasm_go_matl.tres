@@ -4,11 +4,14 @@
 
 [resource]
 flags_transparent = true
-params_blend_mode = 1
-albedo_color = Color( 0.768627, 0.533333, 1, 1 )
+params_specular_mode = 3
+params_billboard_mode = 3
+params_billboard_keep_scale = true
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+albedo_color = Color( 0.360784, 0.184314, 0.8, 1 )
 albedo_texture = ExtResource( 1 )
-metallic = 0.82
-metallic_specular = 0.93
 rim_enabled = true
-rim = 1.0
-rim_tint = 0.28
+rim = 0.2
+rim_tint = 1.0

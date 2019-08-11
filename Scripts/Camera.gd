@@ -4,12 +4,12 @@
 extends Camera
 
 export var mouselook = true
-export (float, 0.0, 1.0) var sensitivity = 0.5
-export (float, 0.0, 0.999, 0.001) var smoothness = 0.5 setget set_smoothness
+export (float, 0.0, 1.0) var sensitivity = 0.1
+export (float, 0.0, 0.999, 00.001) var smoothness = 0.5 setget set_smoothness
 export(NodePath) var privot setget set_privot
 export var rotate_privot = false
 export (int, 0, 0) var yaw_limit = 0
-export (int, 0, 45) var pitch_limit = 75
+export (int, 0, 45) var pitch_limit = 60
 
 var _mouse_position = Vector2(0.0, 0.0)
 var _yaw = 0.0

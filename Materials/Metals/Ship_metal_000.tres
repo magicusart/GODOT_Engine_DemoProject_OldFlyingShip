@@ -7,26 +7,27 @@
 [ext_resource path="res://Textures/ShipBody/FlyingShipBody_normal.jpg" type="Texture" id=5]
 
 [resource]
-params_specular_mode = 2
-albedo_color = Color( 0.207843, 0.141176, 0.117647, 1 )
+params_diffuse_mode = 3
+params_specular_mode = 1
+albedo_color = Color( 0.137255, 0.0705882, 0.054902, 1 )
 albedo_texture = ExtResource( 1 )
 metallic = 1.0
 metallic_specular = 1.0
 metallic_texture = ExtResource( 4 )
+metallic_texture_channel = 4
 roughness_texture = ExtResource( 2 )
-roughness_texture_channel = 2
 normal_enabled = true
-normal_scale = 1.0
+normal_scale = 0.5
 normal_texture = ExtResource( 5 )
 ao_enabled = true
-ao_light_affect = 0.95
+ao_light_affect = 0.96
 ao_texture = ExtResource( 2 )
 ao_on_uv2 = false
 ao_texture_channel = 0
 depth_enabled = true
 depth_scale = 0.0
 depth_deep_parallax = true
-depth_min_layers = 14
+depth_min_layers = 22
 depth_max_layers = 24
 depth_flip_tangent = false
 depth_flip_binormal = false

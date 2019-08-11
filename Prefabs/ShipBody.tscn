@@ -13,7 +13,7 @@ material_override = ExtResource( 2 )
 extra_cull_margin = 8863.48
 
 [node name="StaticBody" type="StaticBody" parent="Ship_Body" index="0"]
-visible = false
+constant_linear_velocity = Vector3( 1, 1, 1 )
 
 [node name="CollisionShape" type="CollisionShape" parent="Ship_Body/StaticBody" index="0"]
 visible = false

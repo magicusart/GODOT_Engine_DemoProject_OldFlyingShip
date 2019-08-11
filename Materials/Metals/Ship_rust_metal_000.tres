@@ -11,15 +11,17 @@
 [resource]
 params_diffuse_mode = 3
 params_specular_mode = 2
-albedo_color = Color( 0.313726, 0.282353, 0.27451, 1 )
+params_use_alpha_scissor = true
+params_alpha_scissor_threshold = 0.98
+albedo_color = Color( 0.290196, 0.247059, 0.211765, 1 )
 albedo_texture = ExtResource( 1 )
-metallic = 0.76
-metallic_specular = 0.0
+metallic = 0.5
+metallic_specular = 0.1
 metallic_texture = ExtResource( 5 )
 roughness_texture = ExtResource( 7 )
 roughness_texture_channel = 3
 normal_enabled = true
-normal_scale = 0.0
+normal_scale = 1.0
 normal_texture = ExtResource( 6 )
 clearcoat_enabled = true
 clearcoat = 1.0
