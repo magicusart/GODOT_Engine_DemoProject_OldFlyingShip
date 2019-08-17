@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Doors_Det_003.obj-3e6ce520bb08c461cb811a6692159b5d.mesh"
+
+[deps]
+
+files=[ "res://.import/Doors_Det_003.obj-3e6ce520bb08c461cb811a6692159b5d.mesh" ]
+
+source_file="res://Models/Doors_Det_003.obj"
+dest_files=[ "res://.import/Doors_Det_003.obj-3e6ce520bb08c461cb811a6692159b5d.mesh", "res://.import/Doors_Det_003.obj-3e6ce520bb08c461cb811a6692159b5d.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

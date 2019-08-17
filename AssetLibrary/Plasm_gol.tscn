@@ -36,9 +36,6 @@ scale_random = 0.34
 scale_curve = SubResource( 4 )
 
 [sub_resource type="SphereMesh" id=8]
-radius = 2.316
-height = 2.658
-is_hemisphere = true
 
 [node name="Plasm_go" type="Spatial"]
 
@@ -46,7 +43,7 @@ is_hemisphere = true
 transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 0, 0, 0 )
 material_override = ExtResource( 1 )
 cast_shadow = 0
-amount = 11
+amount = 13
 preprocess = 8.6
 process_material = SubResource( 7 )
 draw_pass_1 = SubResource( 8 )

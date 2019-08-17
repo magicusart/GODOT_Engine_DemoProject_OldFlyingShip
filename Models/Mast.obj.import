@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Mast.obj-5cfcf1c5fd7e06782b578bf721526df8.mesh"
+
+[deps]
+
+files=[ "res://.import/Mast.obj-5cfcf1c5fd7e06782b578bf721526df8.mesh" ]
+
+source_file="res://Models/Mast.obj"
+dest_files=[ "res://.import/Mast.obj-5cfcf1c5fd7e06782b578bf721526df8.mesh", "res://.import/Mast.obj-5cfcf1c5fd7e06782b578bf721526df8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
