@@ -12,14 +12,14 @@ Used GODOT 3.1.1
 ![banner
 ](Images/FaceGEDP_001.jpg)
 ## What will be included ##
-+ TEXTURES
-+ MATERIALS
-+ ANIMATION TRECS
-+ PARTICLES SISTEMS
++ TEXTURE
++ MATERIAL
++ ANIMATION
++ PARTICLE SISTEM
 + FPS CONTROLLER
-+ ENVIROMENT MAP
-+ PREFABS
-+ 3D MODELS
++ ENVIRONMENT MAP
++ PREFAB
++ 3D MODEL
 + CANVAS
 ### Limitation ###
 + Textures size no more than 1024px. I hope this made the project easier and helped launch it on a different hardware.
