@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Helml_Root.obj-45998ccb94f00a1e5776bebdcde63b62.mesh"
+
+[deps]
+
+files=[ "res://.import/Helml_Root.obj-45998ccb94f00a1e5776bebdcde63b62.mesh" ]
+
+source_file="res://Models/Helml_Root.obj"
+dest_files=[ "res://.import/Helml_Root.obj-45998ccb94f00a1e5776bebdcde63b62.mesh", "res://.import/Helml_Root.obj-45998ccb94f00a1e5776bebdcde63b62.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

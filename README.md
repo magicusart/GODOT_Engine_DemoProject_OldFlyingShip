@@ -39,6 +39,9 @@ Created by Magicus Art Studio. Sergey Mikhaylov.
  [Magicus Art Studio Site](https://magicus-art.com/)
 ## Progress ##
 
+![](Images/Prro_go_002.jpg)
+08.19.2019
+
 ![](Images/Prro_go_001.jpg)
 08.10.2019
 
