@@ -1,10 +1,8 @@
 # Old Flying Ship - GODOT Engine 3D Demo Project #
 
 ## Oops and goodbye ##
-Project wasn't opened in GODOT 3.2.  Why - we weren't looked and now not tell about this error.
-There are materials, textures and others thiinks for developers.
-
-Bye, Old Flying Ship.
+The project did not open in GODOT 3.2.
+There are materials, textures and other things for developers.
 
 Used GODOT 3.1.1
 
